@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>imtihon</title>
+		<link rel="stylesheet" href="./css/main.css">
+	</head>
+	<body>
+
+
+	
+		<div class="container">
+			<div class="list-box ">
+					<ul class="js-list list-users">
+					</ul>
+					<ul class="js-list-posts list-posts"></ul>
+					<ul class="js-list-comment list-comments"></ul>
+				</div>
+			</div>
+	
+	
+			<template class="js-template">
+				<li class="js-item users-item">
+					<span class="js-id user-id"></span>
+					<h2 class="js-name user-name"></h2>
+					<h3 class="js-username user-username"></h3>
+					<a class="js-email user-email"></a>
+					<address class="js-address user-address">
+						<p class="js-street user-street"></p>
+						<p class="js-suite user-suite"></p>
+						<p class="js-city user-city"></p>
+						<p class="js-zipcode user-zipcode"></p>
+						<a href="" target="_blank" class="js-geo user-geo"></a>
+					</address>
+					<a href="tel:" class="js-phone user-phone"></a>
+					<a class="js-website user-website"></a>
+					<div class="js-companiy user-companiy">
+						<h4 class="company-name users-name"></h4>
+						<p class="company-catchphrase user-catchhrase"></p>
+						<p class="company-bs user-bs"></p>
+					</div>
+				</li>
+			</template>
+	
+	
+	
+	
+			<template class="js-posts">
+				<li class="js-post-item posts-item">
+					<div class="js-id-post posts-id"></div>
+					<h3 class="js-title-post posts-title"></h3>
+					<p class="js-text-post posts-text"></p>
+				</li>
+			</template>
+	
+	
+	
+	
+			<template class="js-comments">
+				<li class="js-comment-item comment-item">
+					<div class="js-id-comment comment-id"></div>
+					<h3 class="js-title-comment comment-title"></h3>
+					<a href="" class="js-link-comment comment-link"></a>
+					<p class="js-text-comment comment-text"></p>
+				</li>
+			</template>
+	
+
+
+
+
+		<script src="./js/main.js"></script>
+	</body>
+</html>
